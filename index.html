@@ -40,9 +40,21 @@
         <h2 class="sobre-titulo">Sobre Mim</h2>
         <div class="sobre-caixa">
             <p class="sobre-paragrafo">
-                Olá! Sou um desenvolvedor fron-end... Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-                laboriosam aperiam labore cupiditate, dolorum amet sunt officia hic error maiores exercitationem
-                delectus necessitatibus nesciunt et iure possimus omnis autem eum?
+                Olá! Sou desenvolvedor focado em criar soluções simples, modernas e funcionais para negócios e
+                projetos pessoais.
+                <p class="sobre-paragrafo">
+                Trabalho com HTML, CSS e JavaScript, desenvolvendo landing pages, sites institucionais e pequenas automações, sempre com
+                foco em:
+                <p class="sobre-paragrafo">
+                -Design limpo e moderno.
+                <p class="sobre-paragrafo">
+                -Boa experiência para o usuário.
+                <p class="sobre-paragrafo">
+                -Código organizado e fácil de manter.
+                <p class="sobre-paragrafo">
+                Meu objetivo é transformar ideias em páginas que realmente convertem, transmitam confiança e tragam resultados reais.
+                <p class="sobre-paragrafo">
+                Estou sempre estudando e evoluindo, buscando entregar cada projeto com qualidade, rapidez e atenção aos detalhes.
             </p>
         </div>
     </section>
@@ -105,26 +117,8 @@
         </form>
     </section>
 
-    <script>
 
-    function enviarWhats(event){
-        event.preventDefault()
-
-        const nome = document.getElementById('nome').value;
-        const mensagem = document.getElementById('mensagem').value;
-        const telefone = '5518996492963'
-
-        const texto = `Olá! Me chamo ${nome}, ${mensagem}`
-        const msgFormatada = encodeURIComponent(texto)
-
-        const url = `https://wa.me/${telefone}?text=${msgFormatada}`
-
-        console.log(url)
-
-        window.open(url, 'blank')
-        }
-
-    </script>
+<script src="script.js"></script>
 
 </body>
 
